@@ -17,7 +17,7 @@ execute:
 :::
 
 ::: {.callout-important}
-## 🎯 Note on Python Usage
+## 🎯 Note on Python Usagew
 
 **Recommended Workflow: Use Your Existing Virtual Environment**
 If you completed the Tech Setup Challenge Part 2, you already have a virtual environment set up! Here's how to use it for this new challenge:
@@ -331,6 +331,9 @@ print(sorted_by_lateness[['shipID', 'partID', 'days_late', 'is_late']].head(10))
 - What's the difference between `ascending=False` and `ascending=True` in sorting?
 - How would you sort by multiple columns (e.g., first by `is_late`, then by `days_late`)?
 
+Abhijeet's answer:
+- `ascending=False` sorts in descending order, `ascending=True` sorts in ascending order.
+- You would sort by multiple columns by using a list of columns in the `sort_values` method.
 **Question 2: Index Management**
 - Why do we use `.reset_index(drop=True)` after sorting?
 - What happens to the original index when you sort? Why might this be problematic?
